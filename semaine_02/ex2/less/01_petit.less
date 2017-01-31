@@ -1,0 +1,148 @@
+/* Variable */
+
+@largeur_article : 250px;
+@couleur-icone : #f9d42a;
+@couleur-lienMenu : #fff;
+@couleur-base       : #e3d47f;
+@couleur-complementaire : spin(@couleur-base, 180);
+// @couleur-contrast : contrast(@couleur-base);
+@couleur-contrast : contrast(@couleur-base);
+
+
+@triadic-1 : spin(@couleur-base , -(360 / 3));
+@triadic-2 : spin(@couleur-base , (360 / 3));
+
+
+@couleur-1 : saturate(@couleur-complementaire, 10%);
+@couleur-2 : desaturate(@couleur-complementaire, 10%);
+@couleur-3 : desaturate(@couleur-complementaire, 20%);
+@couleur-4 : saturate(@couleur-complementaire, 30%);
+@couleur-5 : desaturate(@couleur-complementaire, 40%);
+@couleur-6 : desaturate(@couleur-complementaire, 50%);
+@couleur-7 : desaturate(@couleur-complementaire, 60%);
+
+
+
+@couleur-8  : mix(@couleur-base, @triadic-1);
+@couleur-9  : mix(@couleur-base, @triadic-2);
+@couleur-10 : mix(@couleur-base, @couleur-complementaire);
+
+
+
+/* pour le debuggage on met une bordure autour de chacun des éléments 
+
+* {border: 1px solid #aaa;}
+*/
+
+
+
+
+
+
+
+body{
+  display : flex;
+  flex-direction: column;
+  font-family: arial;
+}
+
+header, footer {
+    background-color : @couleur-contrast ;
+}
+header{
+  display: flex;
+  flex-direction:column;
+  padding:5px;
+  
+  img{
+      /* width : 352px; dimension de l'image */
+      width : 100%;
+      }
+  nav {
+      ul{
+        list-style-type: none;
+        padding: 3px;
+
+        li {
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            border-bottom: 1px dotted @couleur-icone;
+          &:first-child {
+            border-top: 1px dotted @couleur-icone;
+          }  
+          a{
+              display : block;
+              color : #fff;
+              text-decoration : none;
+              font-size: 150%;
+              padding: 3px;
+              color : @couleur-lienMenu;
+              flex:1;
+              transition : background-color 1s;
+            }
+            i{
+              color : @couleur-icone;
+              margin-left: 10px;
+              margin-right: 10px;
+
+            }
+           a:hover{
+            background-color: #aaa;
+           } 
+          } // fin li
+        } // fin ul
+      } // fin nav
+    } // fin header  
+
+main{
+    display:flex;
+    flex-direction:column;
+    section{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      article{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        align-items: center;
+        height : @largeur_article;
+       // border: 1px solid #aaa;
+        font-size: @largeur_article;
+      }
+
+      &.premier {
+          article:nth-child(1) {background-color: @couleur-base;}
+          article:nth-child(2) {background-color: @triadic-1;}
+          article:nth-child(3) {background-color: @triadic-2;}
+      }
+      &.deuxieme {
+          article:nth-child(1) {background-color: @couleur-8;}
+          article:nth-child(2) {background-color: @couleur-9;}
+          article:nth-child(3) {background-color: @couleur-10;}
+      }
+    }
+}
+
+footer{
+  height: 70px;
+  display : flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items : center;
+}
+
+footer div{
+ width : 30px;
+
+}
+footer div i{
+   color : @couleur-icone ;
+   transition : color 1s;
+}
+footer div i:hover{
+   color : @couleur-complementaire;
+}
+

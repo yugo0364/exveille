@@ -1,0 +1,21 @@
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  display: block;
+}
+header nav {
+  display: flex;
+  flex: 1;
+}
+header nav ul {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div:nth-child(3) {
+  font-size: 3em;
+}

@@ -1,0 +1,164 @@
+/* ------------------------------------------------------------ MOBILE -------------- */
+@media all and (min-width: 480px) {
+  /* Variable */
+  /* pour le debuggage on met une bordure autour de chacun des éléments 
+
+* {border: 1px solid #aaa;}
+*/
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+  }
+  header,
+  footer {
+    background-color: #000000;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  header img {
+    /* width : 352px; dimension de l'image */
+    width: 100%;
+  }
+  header nav ul {
+    list-style-type: none;
+    padding: 3px;
+  }
+  header nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px dotted #f9d42a;
+  }
+  header nav ul li:first-child {
+    border-top: 1px dotted #f9d42a;
+  }
+  header nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 3px;
+    color: #ffffff;
+    flex: 1;
+    transition: background-color 1s;
+  }
+  header nav ul li i {
+    color: #f9d42a;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  header nav ul li a:hover {
+    background-color: #aaa;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main section article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 250px;
+    font-size: 250px;
+  }
+  main section.premier article:nth-child(1) {
+    background-color: #e3d47f;
+  }
+  main section.premier article:nth-child(2) {
+    background-color: #d47fe3;
+  }
+  main section.premier article:nth-child(3) {
+    background-color: #7fe3d4;
+  }
+  main section.deuxieme article:nth-child(1) {
+    background-color: #dbaab1;
+  }
+  main section.deuxieme article:nth-child(2) {
+    background-color: #b1dca9;
+  }
+  main section.deuxieme article:nth-child(3) {
+    background-color: #b1b1b1;
+  }
+  footer {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  footer div {
+    width: 30px;
+  }
+  footer div i {
+    color: #f9d42a;
+    transition: color 1s;
+  }
+  footer div i:hover {
+    color: #7f8ee3;
+  }
+}
+@media all and (min-width: 600px) {
+  /* Un premier media query pour le logo - apparaît en mode paysage sur les mobiles */
+  header img {
+    /* width : 352px; dimension de l'image */
+    width: 352px;
+    /* dimension de l'image */
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+  }
+  header nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+  }
+  header nav ul li:first-child {
+    border-top: none;
+  }
+  main section {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  footer {
+    justify-content: space-around;
+  }
+}
+@media all and (min-width: 800px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    display: block;
+  }
+  header nav {
+    display: flex;
+    flex: 1;
+  }
+  header nav ul {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer div:nth-child(3) {
+    font-size: 3em;
+  }
+}

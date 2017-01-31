@@ -1,0 +1,59 @@
+/* Un premier media query pour le logo - apparaît en mode paysage sur les mobiles */
+
+
+header{
+
+  img{
+      /* width : 352px; dimension de l'image */
+       width : 352px; /* dimension de l'image */
+      }
+  nav {
+      ul{
+      	display:flex;
+        flex-direction: row;
+        justify-content : space-around;
+        border:none;
+        li {
+	      	display:flex;
+	        flex-direction: row;
+	        justify-content : space-around;
+          border:none;
+        &:first-child {
+            border-top: none;  
+         }   
+          a{
+
+            }
+           a:hover{
+           } 
+          } // fin li
+        } // fin ul
+      } // fin nav
+    } // fin header  
+
+
+    main{
+
+    section{
+        flex-direction : row;
+        flex-wrap : nowrap;
+        justify-content : flex-start;
+       
+      article{
+
+      }
+
+    }
+}
+
+
+footer{
+  justify-content:space-around;
+}
+
+footer div{
+
+
+}
+footer div i{
+}
