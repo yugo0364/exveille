@@ -2,6 +2,9 @@
 /* pour le debuggage on met une bordure autour de chacun des éléments 
 
 * {border: 1px solid #aaa;}
+*
+
+
 */
 body {
   display: flex;
@@ -70,22 +73,22 @@ main section article {
   height: 250px;
   font-size: 250px;
 }
-main section.premier article:nth-child(1) {
+main section:nth-child(odd) article:nth-child(1) {
   background-color: #e3d47f;
 }
-main section.premier article:nth-child(2) {
+main section:nth-child(odd) article:nth-child(2) {
   background-color: #d47fe3;
 }
-main section.premier article:nth-child(3) {
+main section:nth-child(odd) article:nth-child(3) {
   background-color: #7fe3d4;
 }
-main section.deuxieme article:nth-child(1) {
+main section:nth-child(even) article:nth-child(1) {
   background-color: #dbaab1;
 }
-main section.deuxieme article:nth-child(2) {
+main section:nth-child(even) article:nth-child(2) {
   background-color: #b1dca9;
 }
-main section.deuxieme article:nth-child(3) {
+main section:nth-child(even) article:nth-child(3) {
   background-color: #b1b1b1;
 }
 footer {

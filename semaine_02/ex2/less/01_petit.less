@@ -32,13 +32,10 @@
 /* pour le debuggage on met une bordure autour de chacun des éléments 
 
 * {border: 1px solid #aaa;}
+*
+
+
 */
-
-
-
-
-
-
 
 body{
   display : flex;
@@ -113,12 +110,12 @@ main{
         font-size: @largeur_article;
       }
 
-      &.premier {
+      &:nth-child(odd) {
           article:nth-child(1) {background-color: @couleur-base;}
           article:nth-child(2) {background-color: @triadic-1;}
           article:nth-child(3) {background-color: @triadic-2;}
       }
-      &.deuxieme {
+      &:nth-child(even) {
           article:nth-child(1) {background-color: @couleur-8;}
           article:nth-child(2) {background-color: @couleur-9;}
           article:nth-child(3) {background-color: @couleur-10;}
