@@ -76,22 +76,37 @@
     font-size: 200px;
   }
   main section:nth-child(odd) article:nth-child(1) {
-    background-color: #e3d47f;
+    background-color: #687efa;
   }
   main section:nth-child(odd) article:nth-child(2) {
-    background-color: #d47fe3;
+    background-color: #8f99d3;
   }
   main section:nth-child(odd) article:nth-child(3) {
-    background-color: #7fe3d4;
-  }
-  main section:nth-child(even) article:nth-child(1) {
     background-color: #dbaab1;
   }
+  main section:nth-child(odd) article:nth-child(4) {
+    background-color: #8f99d3;
+  }
+  main section:nth-child(odd) article:nth-child(5) {
+    background-color: #687efa;
+  }
+  main section:nth-child(even) article:nth-child(1) {
+    background-color: #a6a9bc;
+  }
   main section:nth-child(even) article:nth-child(2) {
-    background-color: #b1dca9;
+    background-color: #aeafb4;
   }
   main section:nth-child(even) article:nth-child(3) {
-    background-color: #b1b1b1;
+    background-color: #9ea4c4;
+  }
+  main section:nth-child(even) article:nth-child(4) {
+    background-color: #aeafb4;
+  }
+  main section:nth-child(even) article:nth-child(5) {
+    background-color: #a6a9bc;
+  }
+  .blue {
+    background-color: #687efa;
   }
   footer {
     height: 70px;
