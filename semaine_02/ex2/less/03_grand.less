@@ -1,3 +1,33 @@
+/* Variable */
+
+@largeur_article : 20%;
+@couleur-icone : #f9d42a;
+@couleur-lienMenu : #fff;
+@couleur-base       : #e3d47f;
+@couleur-complementaire : spin(@couleur-base, 180);
+// @couleur-contrast : contrast(@couleur-base);
+@couleur-contrast : contrast(@couleur-base);
+
+
+@triadic-1 : spin(@couleur-base , -(360 / 3));
+@triadic-2 : spin(@couleur-base , (360 / 3));
+
+
+@couleur-1 : saturate(@couleur-complementaire, 10%);
+@couleur-2 : desaturate(@couleur-complementaire, 10%);
+@couleur-3 : desaturate(@couleur-complementaire, 20%);
+@couleur-4 : saturate(@couleur-complementaire, 30%);
+@couleur-5 : desaturate(@couleur-complementaire, 40%);
+@couleur-6 : desaturate(@couleur-complementaire, 50%);
+@couleur-7 : desaturate(@couleur-complementaire, 60%);
+
+
+
+@couleur-8  : mix(@couleur-base, @triadic-1);
+@couleur-9  : mix(@couleur-base, @triadic-2);
+@couleur-10 : mix(@couleur-base, @couleur-complementaire);
+
+header, main section, footer{width: 960px;}
 header{
       flex-direction:row;
       justify-content : space-between;
@@ -29,3 +59,10 @@ header{
     footer div:nth-child(3) {
       font-size: 3em;
 }
+.global{
+  width: 100%;
+  display: flex;
+   flex-direction: row; 
+   justify-content:center;
+ }
+.black{background-color: @couleur-contrast;}

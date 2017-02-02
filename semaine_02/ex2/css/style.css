@@ -70,10 +70,10 @@
   main section article {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 250px;
     align-items: center;
     height: 250px;
-    font-size: 250px;
+    font-size: 200px;
   }
   main section:nth-child(odd) article:nth-child(1) {
     background-color: #e3d47f;
@@ -143,6 +143,12 @@
   }
 }
 @media all and (min-width: 800px) {
+  /* Variable */
+  header,
+  main section,
+  footer {
+    width: 960px;
+  }
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -163,5 +169,14 @@
   }
   footer div:nth-child(3) {
     font-size: 3em;
+  }
+  .global {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .black {
+    background-color: #000000;
   }
 }
