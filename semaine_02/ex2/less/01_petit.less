@@ -95,6 +95,24 @@ header{
 main{
     display:flex;
     flex-direction:column;
+    .global:nth-child(even){background-color: @couleur-4;}
+
+    
+    .global:nth-child(odd){background-color: @couleur-6;}
+    .global:nth-child(odd) section{
+          article:nth-child(1) {background-color: @couleur-4;}
+          article:nth-child(2) {background-color: @couleur-3;}
+          article:nth-child(3) {background-color: red;}
+          article:nth-child(4) {background-color: @couleur-3;}
+          article:nth-child(5) {background-color: @couleur-4;}
+      }
+      .global:nth-child(even) section{
+          article:nth-child(1) {background-color: @couleur-6;}
+          article:nth-child(2) {background-color: @couleur-7;}
+          article:nth-child(3) {background-color: @couleur-5;}
+          article:nth-child(4) {background-color: @couleur-7;}
+          article:nth-child(5) {background-color: @couleur-6;}
+      }
     section{
       display:flex;
       flex-direction:column;
@@ -110,20 +128,7 @@ main{
         font-size: 200px;
       }
 
-      &:nth-child(odd) {
-          article:nth-child(1) {background-color: @couleur-4;}
-          article:nth-child(2) {background-color: @couleur-3;}
-          article:nth-child(3) {background-color: @couleur-8;}
-          article:nth-child(4) {background-color: @couleur-3;}
-          article:nth-child(5) {background-color: @couleur-4;}
-      }
-      &:nth-child(even) {
-          article:nth-child(1) {background-color: @couleur-6;}
-          article:nth-child(2) {background-color: @couleur-7;}
-          article:nth-child(3) {background-color: @couleur-5;}
-          article:nth-child(4) {background-color: @couleur-7;}
-          article:nth-child(5) {background-color: @couleur-6;}
-      }
+      
     }
 }
 .blue{background-color: @couleur-4;}

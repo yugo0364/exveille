@@ -61,6 +61,42 @@
     display: flex;
     flex-direction: column;
   }
+  main .global:nth-child(even) {
+    background-color: #687efa;
+  }
+  main .global:nth-child(odd) {
+    background-color: #a6a9bc;
+  }
+  main .global:nth-child(odd) section article:nth-child(1) {
+    background-color: #687efa;
+  }
+  main .global:nth-child(odd) section article:nth-child(2) {
+    background-color: #8f99d3;
+  }
+  main .global:nth-child(odd) section article:nth-child(3) {
+    background-color: red;
+  }
+  main .global:nth-child(odd) section article:nth-child(4) {
+    background-color: #8f99d3;
+  }
+  main .global:nth-child(odd) section article:nth-child(5) {
+    background-color: #687efa;
+  }
+  main .global:nth-child(even) section article:nth-child(1) {
+    background-color: #a6a9bc;
+  }
+  main .global:nth-child(even) section article:nth-child(2) {
+    background-color: #aeafb4;
+  }
+  main .global:nth-child(even) section article:nth-child(3) {
+    background-color: #9ea4c4;
+  }
+  main .global:nth-child(even) section article:nth-child(4) {
+    background-color: #aeafb4;
+  }
+  main .global:nth-child(even) section article:nth-child(5) {
+    background-color: #a6a9bc;
+  }
   main section {
     display: flex;
     flex-direction: column;
@@ -74,36 +110,6 @@
     align-items: center;
     height: 250px;
     font-size: 200px;
-  }
-  main section:nth-child(odd) article:nth-child(1) {
-    background-color: #687efa;
-  }
-  main section:nth-child(odd) article:nth-child(2) {
-    background-color: #8f99d3;
-  }
-  main section:nth-child(odd) article:nth-child(3) {
-    background-color: #dbaab1;
-  }
-  main section:nth-child(odd) article:nth-child(4) {
-    background-color: #8f99d3;
-  }
-  main section:nth-child(odd) article:nth-child(5) {
-    background-color: #687efa;
-  }
-  main section:nth-child(even) article:nth-child(1) {
-    background-color: #a6a9bc;
-  }
-  main section:nth-child(even) article:nth-child(2) {
-    background-color: #aeafb4;
-  }
-  main section:nth-child(even) article:nth-child(3) {
-    background-color: #9ea4c4;
-  }
-  main section:nth-child(even) article:nth-child(4) {
-    background-color: #aeafb4;
-  }
-  main section:nth-child(even) article:nth-child(5) {
-    background-color: #a6a9bc;
   }
   .blue {
     background-color: #687efa;
