@@ -1,0 +1,123 @@
+
+C:\Users\yugol_000\veille>git add .
+
+C:\Users\yugol_000\veille>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   New folder/img/bg.jpg
+        new file:   New folder/img/drone_a.png
+        new file:   New folder/img/drone_b.png
+        new file:   New folder/img/mounts_1.png
+        new file:   New folder/img/mounts_2.png
+        new file:   New folder/img/mounts_3.png
+        new file:   New folder/img/mounts_4.png
+        new file:   New folder/index.html
+        new file:   New folder/style.css
+        new file:   ex_scroll(4).htm
+        modified:   semaine_02/ex2/index.htm
+        modified:   semaine_02/ex2/less/01_petit.less
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   semaine_01/01_exemple (modified content)
+        modified:   semaine_01/ex1 (untracked content)
+
+
+C:\Users\yugol_000\veille>git commit -m "ex scroll svg double path"
+[master f6f1f1d] ex scroll svg double path
+ 12 files changed, 640 insertions(+), 1 deletion(-)
+ create mode 100644 New folder/img/bg.jpg
+ create mode 100644 New folder/img/drone_a.png
+ create mode 100644 New folder/img/drone_b.png
+ create mode 100644 New folder/img/mounts_1.png
+ create mode 100644 New folder/img/mounts_2.png
+ create mode 100644 New folder/img/mounts_3.png
+ create mode 100644 New folder/img/mounts_4.png
+ create mode 100644 New folder/index.html
+ create mode 100644 New folder/style.css
+ create mode 100644 ex_scroll(4).htm
+
+C:\Users\yugol_000\veille>git push
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 3.10 MiB | 184.00 KiB/s, done.
+Total 19 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/yugo0364/exveille.git
+   9c2eec7..f6f1f1d  master -> master
+
+C:\Users\yugol_000\veille>git commit -m "ex scroll svg double path"00g
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   semaine_01/01_exemple (modified content)
+        modified:   semaine_01/ex1 (untracked content)
+
+no changes added to commit
+
+C:\Users\yugol_000\veille>git .add
+git: '.add' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+C:\Users\yugol_000\veille>git add .
+warning: LF will be replaced by CRLF in New folder/img/bg.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in New folder/img/logo.svg.
+The file will have its original line endings in your working directory.
+
+C:\Users\yugol_000\veille>git commit -m finiExScrollSkywork
+[master c40c556] finiExScrollSkywork
+ 4 files changed, 64 insertions(+), 12 deletions(-)
+ create mode 100644 New folder/img/bg.svg
+ create mode 100644 New folder/img/logo.svg
+
+C:\Users\yugol_000\veille>git add .
+warning: LF will be replaced by CRLF in scrollCss/img/bg.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scrollCss/img/logo.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in scrollCss/img/thunda.svg.
+The file will have its original line endings in your working directory.
+
+C:\Users\yugol_000\veille>git commmit -m scroll
+git: 'commmit' is not a git command. See 'git --help'.
+
+Did you mean this?
+        commit
+
+C:\Users\yugol_000\veille>git commit -m scroll
+[master aa6a23c] scroll
+ 12 files changed, 17 insertions(+), 6 deletions(-)
+ rename {New folder => scrollCss}/img/bg.jpg (100%)
+ rename {New folder => scrollCss}/img/bg.svg (100%)
+ rename {New folder => scrollCss}/img/drone_a.png (100%)
+ rename {New folder => scrollCss}/img/drone_b.png (100%)
+ rename {New folder => scrollCss}/img/logo.svg (100%)
+ rename {New folder => scrollCss}/img/mounts_1.png (100%)
+ rename {New folder => scrollCss}/img/mounts_2.png (100%)
+ rename {New folder => scrollCss}/img/mounts_3.png (100%)
+ rename {New folder => scrollCss}/img/mounts_4.png (100%)
+ create mode 100644 scrollCss/img/thunda.svg
+ rename {New folder => scrollCss}/index.html (82%)
+ rename {New folder => scrollCss}/style.css (100%)
+
+C:\Users\yugol_000\veille>git push origin
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (14/14), 5.99 KiB | 0 bytes/s, done.
+Total 14 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/yugo0364/exveille.git
+   f6f1f1d..aa6a23c  master -> master
+
+C:\Users\yugol_000\veille>
