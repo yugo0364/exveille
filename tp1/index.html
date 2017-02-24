@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Skyworks</title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="assets/components/modernizr.js"></script>
+
+  </head>
+  <body>
+
+
+<div class="parallax">
+
+    <div class="parallax__group">
+    <div class="scroll-fill"></div>
+      <svg id="eclaire" width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <path class="jj" id="svg_2" d="m297.5,260.5l-22.5,-47.5l15,-6l-27,-51l19,-17l-34,-53l-31,34c0.5,0.5 27.5,45.5 27.5,45.5c0,0 -16,18 -16.5,17.5c-1.5,-1.5 26.5,40.5 26,40c-4.5,26.5 -17.5,18.5 -18,18c0.5,0.5 71.5,82.5 71,82c0.5,0.5 -9.5,-62.5 -9.5,-62.5z" stroke-width="8" stroke="#0f0f00" fill="#ffff00"/>
+  <path class="jj" id="svg_2" d="m504.5,239.5l-22.5,-47.5l15,-6l-27,-51l19,-17l-34,-53l-31,34c0.5,0.5 27.5,45.5 27.5,45.5c0,0 -16,18 -16.5,17.5c-1.5,-1.5 26.5,40.5 26,40c-4.5,26.5 -17.5,18.5 -18,18c0.5,0.5 71.5,82.5 71,82c0.5,0.5 -9.5,-62.5 -9.5,-62.5z" stroke-width="8" stroke="#0f0f00" fill="#ffff00"/>
+  <path class="jj" id="svg_2" d="m93.5,275.5l-22.5,-47.5l15,-6l-27,-51l19,-17l-34,-53l-31,34c0.5,0.5 27.5,45.5 27.5,45.5c0,0 -16,18 -16.5,17.5c-1.5,-1.5 26.5,40.5 26,40c-4.5,26.5 -17.5,18.5 -18,18c0.5,0.5 71.5,82.5 71,82c0.5,0.5 -9.5,-62.5 -9.5,-62.5z" stroke-width="8" stroke="#0f0f00" fill="#ffff00"/>
+ </g>
+</svg>
+      <div class="parallax__layer parallax__layer--base"></div>
+      <div class="parallax__layer parallax__layer--rocks">
+        <div class="rock-cover">
+
+          <div class="content">
+            
+            </p>
+            <div class="container">
+  
+           
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="parallax__layer parallax__layer--river"></div>
+      <div class="parallax__layer parallax__layer--back"></div>
+      <div class="parallax__layer parallax__layer--deep"></div>
+      <div class="parallax__layer parallax__layer--drone-a"></div>
+      <div class="parallax__layer parallax__layer--drone-b"></div>
+      <div id="us" class="parallax__layer parallax__layer--logo"></div>
+      <div class="parallax__layer parallax__layer--bg"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="base"></div>
+          <div id="pikas">
+        <div id="n1" class="pika pk1"></div>
+        <div id="n2" class="pika pk2"></div>
+        <div id="n3" class="pika pk3"></div>
+        <div id="n4" class="pika pk4"></div>
+
+      </div>
+  </div>
+
+  </body>
+  <script type="text/javascript">
+    var a1=document.getElementById('n1');
+    var a2=document.getElementById('n2');
+    var a3=document.getElementById('n3');
+    var a4=document.getElementById('n4');
+    a1.addEventListener("mouseover", drop );
+    a2.addEventListener("mouseover", drop );
+    a3.addEventListener("mouseover", drop );
+    a4.addEventListener("mouseover", drop );   
+    function drop(){
+      if(this.rot==null){
+        this.rot=0;
+      }
+      this.rot+=1;
+        this.classList.toggle("drop");
+        console.log("wasup "+this);
+        this.style.transform = "rotate("+this.rot+"deg)";
+
+    }
+  </script>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tracer d'une figure SVG par l'événement scroll</title>
+	<style type="text/css">
+	html {
+		height : 200%;
+	}
+	
+	#monSVG {
+		position: fixed ;
+	}
+
+
+
+	/* Définir la couleur de fond, la couleur du contour, l'épaisseur du contour du path */
+
+	#monSVG path {
+		fill:none;
+
+		stroke : #f00;
+
+		stroke-width: 3;
+
+	}  
+
+	</style>
+</head>
+
+<body>
+
+
+
+<svg 	id="monSVG" 
+
+		width="1000" 
+
+		height="500"
+
+		viewBox="-50, -50 1000 500"
+
+		preserveAspectRatio="xMidYMid slice"
+		>
+
+ <!--  Le path d'un triangle -->
+
+    <path d=" M 150 0
+  			L 75 200 
+  			L 225 200 
+  			Z"/>
+	<path d=" M 250 0
+	L 175 200 
+	L 125 200 
+	Z"/>
+</svg>
+
+	<script>
+	// on cible l'élément « path » que l'on veut animer 
+	var paths=document.querySelectorAll("#monSVG path");
+
+	//var triangle = document.querySelectorAll("#monSVG path")[0];
+	// la longueur du chemin «path»
+	//var longueur = triangle.getTotalLength();
+
+	var lgs=[];
+	for(var i=0;i<paths.length;i++){
+		lgs[i]=paths[i].getTotalLength();
+		paths[i].style.strokeDasharray = lgs[i];
+		paths[i].style.strokeDashoffset = lgs[i];
+	}
+
+	// La longueur du tracé
+	// https://developer.mozilla.org/en/docs/Web/SVG/Attribute/stroke-dasharray
+
+	//triangle.style.strokeDasharray = longueur;
+
+	// On fait disparaître le tracé en appliquant la propriété css strokeDashoffset sur toute la longueur du chemin
+	//triangle.style.strokeDashoffset = longueur;
+
+	// extraire la fraction du déplacement de la barre de défilement et  ajusté le tracé
+	window.addEventListener("scroll", maTrace);
+
+	function maTrace() {
+
+		console.log('scrollTop de body = ' + document.body.scrollTop)
+		console.log('scrollTop de documentElement = ' + document.documentElement.scrollTop)
+		console.log('scrollHeight de documentElement = ' + document.documentElement.scrollHeight)	
+		console.log('clientHeight de documentElement = ' + document.documentElement.clientHeight)			
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight
+
+
+
+	  var fractionDuScroll = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+	  for(i=0;i<paths.length;i++){
+	  	paths[i].style.strokeDashoffset=lgs[i]-(lgs[i]*fractionDuScroll);
+	  }
+	  /*var trace = longueur * fractionDuScroll;
+
+	  // tracé selon la fraction de «scroll»
+	  triangle.style.strokeDashoffset = longueur-trace;*/
+	}
+	</script>
+
+</body>
+</html>

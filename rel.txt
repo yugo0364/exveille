@@ -1,0 +1,28 @@
+
+C:\Users\yugol_000\veille>git add .
+warning: LF will be replaced by CRLF in semaine_02/ex2/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in semaine_02/ex2/less/style.less.
+The file will have its original line endings in your working directory.
+
+C:\Users\yugol_000\veille>git commit -m node
+[master d23dfa4] node
+ 10 files changed, 335 insertions(+), 3 deletions(-)
+ create mode 100644 scrollCss/result.txt
+ create mode 100644 semaine_02/ex2/svg/tab.json
+ create mode 100644 test_node/tab.json
+ create mode 100644 test_node/test.js
+ create mode 100644 tp1.html
+
+C:\Users\yugol_000\veille>git push
+Counting objects: 18, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (18/18), 5.65 KiB | 0 bytes/s, done.
+Total 18 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/yugo0364/exveille.git
+   aa6a23c..d23dfa4  master -> master
+
+C:\Users\yugol_000\veille>git
+
