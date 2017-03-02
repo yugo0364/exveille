@@ -1,0 +1,48 @@
+
+yugol_000@Hugo_Lapalme_2 MINGW64 ~/veille (master)
+$ git add .
+warning: LF will be replaced by CRLF in tp1/bg.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp1/cloud.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp1/logo.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp1/pika.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp1/thunda.svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tp1/us.svg.
+The file will have its original line endings in your working directory.
+
+yugol_000@Hugo_Lapalme_2 MINGW64 ~/veille (master)
+$ git commit -m tp1
+[master 636defa] tp1
+ 14 files changed, 1306 insertions(+)
+ create mode 100644 06_emeteur_evenement.js
+ create mode 100644 11_serveur_web_avec_chemin.js
+ create mode 100644 66.js
+ create mode 100644 rel.txt
+ create mode 100644 tp1/bg.svg
+ create mode 100644 tp1/cloud.svg
+ create mode 100644 tp1/ex_scroll(4).htm
+ create mode 100644 tp1/index.html
+ create mode 100644 tp1/logo.svg
+ create mode 100644 tp1/nuke.svg
+ create mode 100644 tp1/pika.svg
+ create mode 100644 tp1/style.css
+ create mode 100644 tp1/thunda.svg
+ create mode 100644 tp1/us.svg
+
+yugol_000@Hugo_Lapalme_2 MINGW64 ~/veille (master)
+$ git push
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 21.02 KiB | 0 bytes/s, done.
+Total 13 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/yugo0364/exveille.git
+   d23dfa4..636defa  master -> master
+
+yugol_000@Hugo_Lapalme_2 MINGW64 ~/veille (master)
+$
