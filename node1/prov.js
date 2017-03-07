@@ -4,7 +4,7 @@ var http = require("http");
 /*------*/
 
 var str;
-fs.readFile('tab.json', 'utf8', function (err, data) {
+fs.readFile('prov.json', 'utf8', function (err, data) {
   if (err) throw err;
   var obj = JSON.parse(data);
   str=readData(obj);
