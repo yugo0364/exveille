@@ -41,15 +41,26 @@ app.get('/formulaire',  (req, res) => {
    res.sendFile(__dirname + "/public/html/formd.html");
 });
 app.get('/detruire/:id',  (req, res) => {
+  var id=req.params.id;
   console.log(req.params.telephone);
-  db.collection('adresse').findOneAndDelete(req.body, (err, result) => {
+  db.collection('adresse').findOneAndDelete({'_id' : ObjectID(req.params.id)}, (err, result) => {
       if (err) return console.log(err);
       console.log('delete dans la BD');
       res.redirect('/');
     });
-});
+});/*
+app.get('/detruire/:id', (req, res) => {
+ var id = req.params.id;
+ console.log(id);
+ db.collection('adresse')
+ .findOneAndDelete({"_id": ObjectID(req.params.id)}, (err, resultat) => {
 
+if (err) return console.log(err)
+ res.redirect('/')  // redirige vers la route qui affiche la collection
+ })
+})
 
+*/
 app.post('/adresse',  (req, res) => {
   db.collection('adresse').save(req.body, (err, result) => {
       if (err) return console.log(err);
@@ -57,21 +68,21 @@ app.post('/adresse',  (req, res) => {
       res.redirect('/');
     });
 });
+var i=0;
+app.post('/mod/:id',  (req, res) => {
+  console.log(req.body.nom+","+req.body.prenom+","+req.params.id);
+  i++;
+console.log(i+"()"+ObjectID(req.body.id));
+  db.collection('adresse').update(
 
-app.post('/mod',  (req, res) => {
-  console.log(req.params.id);
-
-  /*  db.collection('adresse').save(req.body, (err, result) => {
+    {'_id' : ObjectID(req.params.id)},
+    {"nom": req.body.nom,"prenom": req.body.prenom,"telephone": req.body.telephone,"adresse": req.body.adresse,"codepostal": req.body.codepostal}
+    ,(err, result) => {
       if (err) return console.log(err);
-      console.log('sauvegarder dans la BD');
-      res.redirect('/');
-    });
-*/
-  db.collection('adresse').findAndModify({
-    query: { id: req.params.id },
-    sort: { cno: 1 },
-    update: { $inc: 
-      { nom: req.params.nom,prenom: req.params.prenom,telephone: req.params.telephone,adresse: req.params.adresse,codepostal: req.params.codepostal} }
-    })
+      console.log('modifier dans la BD');
+      res.redirect('/'); }
+
+    );
 });
 
+ 
