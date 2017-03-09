@@ -1,8 +1,16 @@
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <ellipse ry="42.5" rx="42.5" id="svg_1" cy="200" cx="290" stroke-width="0" stroke="#000" fill="#ff0f0f"/>
-  <ellipse transform="rotate(90 290,200) " stroke="#000" ry="17" rx="72" id="svg_3" cy="200" cx="290" stroke-width="0" fill="#00ff00"/>
-  <ellipse stroke="#000" ry="17" rx="72" id="svg_4" cy="200" cx="290" stroke-width="0" fill="#00ff00"/>
- </g>
+<svg width = '100%' 
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+viewBox="-500 -500 2000 2000" >
+	<defs>
+		<g id="atom" class="obj">
+		  <ellipse class="coeur" ry="42.5" rx="42.5" cy="0" cx="0"/>
+		  <ellipse id="d90" class="hell" ry="17" rx="72" cy="0" cx="0"/>
+		  <ellipse class="hell" ry="17" rx="72" cy="0" cx="0" />
+	 	</g>
+   </defs>
+ <use xlink:href="#atom" x="0" y="100"  />
+ <use xlink:href="#atom" x="150" y="0"  />
+ <use xlink:href="#atom" x="300" y="100"  />
+ <use xlink:href="#atom" x="150" y="200"  />
 </svg>

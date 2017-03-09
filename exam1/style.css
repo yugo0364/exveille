@@ -1,0 +1,32 @@
+#atom{
+animation: tourne 2s linear infinite;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#d90{transform:rotate(90deg);}
+.coeur{ fill:red;}
+.hell{
+  stroke:blue;
+  fill:lime;
+  stroke-width:4;
+  stroke-dasharray: 0 500;
+  animation: bord 4.5s linear alternate infinite;
+
+
+}
+
+@keyframes bord {
+    0% {
+      stroke-dasharray: 0 500;
+    }
+    100% {
+      stroke-dasharray: 400 500;
+    }
+}

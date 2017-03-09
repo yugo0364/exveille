@@ -6,7 +6,7 @@
 		<!-- Ajustement de la taille du viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Désactivation du mode de compatibilité avec des versions antérieures pour IE-->
+		<!-- Désactivation du mode de compatibilité avec des versions antérieures pour IE <article><img src="forme.svg"></article>-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		
 		<link rel="stylesheet"  href="style.css">
@@ -14,10 +14,23 @@
 	</head>
 	<body>
 		<main>
-			<article><img src="forme.svg"></article>
-
+			
+			<svg width = '100%' 
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" 
+				viewBox="-500 -300 2000 2000" >
+				<defs>
+					<g id="atom" class="obj">
+					  <circle class="coeur" cx="0" cy="0" r="42.5"/>
+					  <ellipse id="d90" class="hell" ry="17" rx="72" cy="0" cx="0"/>
+					  <ellipse class="hell" ry="17" rx="72" cy="0" cx="0" />
+				 	</g>
+			   </defs>
+				 <use xlink:href="#atom" x="0" y="100"  />
+				 <use xlink:href="#atom" x="150" y="0"  />
+				 <use xlink:href="#atom" x="300" y="100"  />
+				 <use xlink:href="#atom" x="150" y="200"  />
+			 </svg>
 		</main>
-
-		
 	</body>
 </html>
