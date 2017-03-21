@@ -93,16 +93,18 @@ app.get('/add',  (req, res) => {
 }
 
 app.get('/addall',  (req, res) => {
-  
+  var gime;
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  gime = JSON.parse(data);console.log(gime);});
-     
-
-     db.collection('provinces').insertMany(valeur(gime), (err, result) => {
+  gime = JSON.parse(data); console.log(gime);
+  db.collection('provinces').insertMany(gime, (err, result) => {
       if (err) return console.log(err);
       console.log('ajouts dans la BD');
       res.redirect('/'); 
 
-    });
+    });});
+
+     
+
+     
 });
