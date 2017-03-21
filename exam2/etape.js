@@ -44,9 +44,9 @@ app.get('/provinces',  (req, res) => {
   console.log("lire Json");
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  adresse = JSON.parse(data);
+  rel = JSON.parse(data);
    console.log(data);
-   res.redirect("/");
+   res.render('index.ejs', {adresse: rel});
 
 
 });
@@ -57,22 +57,13 @@ app.get('/provinces',  (req, res) => {
     });*/
 });
 
-/*
-app.get('/colletion',  (req, res) => {
-  console.log("lire collection");
-  fs.readFile('provinces.json', 'utf8', function (err, data) {
-  if (err) throw err;
-  adresse = JSON.parse(data);
 
-});
-  db.collection('provinces').save(req.body, (err, result) => {
-      if (err) return console.log(err);
-      console.log('sauvegarder dans la BD');
+app.get('/colletion',  (req, res) => {
+
       res.redirect('/');
-    });
 });
  <!---->
- */ app.get('/add',  (req, res) => {
+app.get('/add',  (req, res) => {
       var val=Math.round(Math.random()*100)+100;
 
       db.collection('provinces').insert( { 
@@ -93,15 +84,25 @@ app.get('/colletion',  (req, res) => {
 
     });
 });
-/*app.get('/addall',  (req, res) => {
-  var gime;
+  function valeur(obj) {
+    var result = [];
+    for (var i=0;obj.length;i++) {
+      result.push(obj[i]);
+    }
+    return result;
+}
+
+app.get('/addall',  (req, res) => {
+  
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  gime = JSON.parse(data);});
-     db.collection('provinces').insertMany(gime, (err, result) => {
+  gime = JSON.parse(data);console.log(gime);});
+     
+
+     db.collection('provinces').insertMany(valeur(gime), (err, result) => {
       if (err) return console.log(err);
       console.log('ajouts dans la BD');
       res.redirect('/'); 
 
     });
-});*/
+});

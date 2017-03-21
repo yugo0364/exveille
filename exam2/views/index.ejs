@@ -12,9 +12,9 @@
   	  	<h2>Node.js, Express, MongoDB, EJS</h2>
   	  	<nav>
 
-  	  		<a href="#">1-Fichier</a>
+  	  		<a href="http://localhost:8081/fichier">1-Fichier</a>
   	  		<a href="http://localhost:8081/provinces">2-Provinces</a>
-  	  		<a href="http://localhost:8081/colletion">3-Collection</a>
+  	  		<a href="http://localhost:8081/">3-Collection</a>
   	  		<a href="http://localhost:8081/add">4-Ajouter un document</a>
   	  		<a href="http://localhost:8081/detruire">5-Détruire</a>
   	  		<a href="http://localhost:8081/addall"">6-Ajouter plusieurs</a>
@@ -24,7 +24,7 @@
 		  <table class="tableau">
         <% for(var i=0; i<adresse.length; i++) {%>
           <tr><td><%= adresse[i].code %></td><td><%= adresse[i].nom %></td><td><%= adresse[i].capital %></td>
-          <% if(adresse[i]._id != undefined){ %><td>
+          <% if(adresse[i]._id != undefined){ %><td><%= adresse[i]._id %>
             
           </td><% } %></tr>
          <% } %>
