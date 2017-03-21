@@ -9,44 +9,60 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static('public'))  // pour utiliser le dossier public
 app.use(bodyParser.json())  // pour traiter les données JSON
 
-
 var http = require("http");
+var prov={};
+var db; // variable qui contiendra le lien sur la BD
 
-
-var str;
-fs.readFile('provinces.json', 'utf8', function (err, data) {
-  if (err) throw err;
-  var obj = JSON.parse(data);
-  str=readData(obj);
+MongoClient.connect('mongodb://127.0.0.1:27017/cprovinces', (err, database) => {
+  if (err) return console.log(err);
+  db = database;
+  app.listen(8081, () => {
+    console.log('connexion à la BD et on écoute sur le port 8081')
+  });
 });
 
 
 
 
 
-/*fn----*/
-function readData(objs){
-	var str="<h1>Les Province</h1><table><tr><td>Non Province</td><td>tag</td></tr>";
-	for(var prop in objs){
-		str+="<tr><td>";
-		str+=objs[prop];
-		str+="</td>";
-		str+="<td>";
-		str+=prop;
-		str+="</td></tr>";
-	}
-	str+="</table>";
-	return(str);
-}
+app.get('/',  (req, res) => {
+   console.log('la route route get / = ' + req.url);
+ 
+    var cursor = db.collection('cprovinces').find().toArray(function(err, resultat){
+       if (err) return console.log(err);
+    // renders index.ejs
+    // affiche le contenu de la BD
+    res.render('index.ejs', {adresse: resultat});
 
-function onRequest(request, response) {
-  console.log("Requête reçue.");
-  response.writeHead(200, {"Content-Type": "text/html"});
+    });
+    
+
+});
 
 
-  response.write(str);
-  response.end();
-}
+app.get('/provinces',  (req, res) => {
+  console.log("lire Json");
+  fs.readFile('provinces.json', 'utf8', function (err, data) {
+  if (err) throw err;
+  prov = JSON.parse(data);
 
-http.createServer(onRequest).listen(8888);
-console.log("Démarrage du serveur.");
+});
+  /*db.collection('cprovinces').save(req.body, (err, result) => {
+      if (err) return console.log(err);
+      console.log('sauvegarder dans la BD');
+      res.redirect('/');
+    });*/
+});
+app.get('/provinces',  (req, res) => {
+  console.log("lire Json");
+  fs.readFile('provinces.json', 'utf8', function (err, data) {
+  if (err) throw err;
+  prov = JSON.parse(data);
+
+});
+  /*db.collection('cprovinces').save(req.body, (err, result) => {
+      if (err) return console.log(err);
+      console.log('sauvegarder dans la BD');
+      res.redirect('/');
+    });*/
+});
