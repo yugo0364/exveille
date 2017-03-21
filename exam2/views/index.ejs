@@ -22,10 +22,12 @@
   	  </header>
   	  <main>
 		  <table class="tableau">
-        <%= for(var i=0; i<adresse.length; i++) {%>
-          <tr><td><%= adresse.code %></td><td><%= adresse.nom %></td><td><%= adresse.capital %></td>
-
-         
+        <% for(var i=0; i<adresse.length; i++) {%>
+          <tr><td><%= adresse[i].code %></td><td><%= adresse[i].nom %></td><td><%= adresse[i].capital %></td>
+          <% if(adresse[i]._id != undefined){ %><td>
+            
+          </td><% } %></tr>
+         <% } %>
 		  </table>
 	  </main>
 	  <footer>

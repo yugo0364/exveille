@@ -45,7 +45,9 @@ app.get('/provinces',  (req, res) => {
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
   adresse = JSON.parse(data);
-  res.redirect('/');
+   console.log(data);
+   res.redirect("/");
+
 
 });
   /*db.collection('cprovinces').save(req.body, (err, result) => {
@@ -55,7 +57,7 @@ app.get('/provinces',  (req, res) => {
     });*/
 });
 
-
+/*
 app.get('/colletion',  (req, res) => {
   console.log("lire collection");
   fs.readFile('provinces.json', 'utf8', function (err, data) {
@@ -68,18 +70,15 @@ app.get('/colletion',  (req, res) => {
       console.log('sauvegarder dans la BD');
       res.redirect('/');
     });
-});/*
- <!--<%= if(adresse._id != undefined){ =><td><%= adresse._id =>
-            
-          </td><%= } =></tr>
-  <% } %>-->*/
+});
+ <!---->
+ */ app.get('/add',  (req, res) => {
+      var val=Math.round(Math.random()*100)+100;
 
-/*  app.get('/add',  (req, res) => {
       db.collection('provinces').insert( { 
       "code": "QC",  
       "nom" : "Québec",
-      "capital" : (Math.Round(Math.random()*200))
-      }, (err, result) => {
+      "capital" :   val    }, (err, result) => {
       if (err) return console.log(err);
       console.log('ajout dans la BD');
       res.redirect('/'); 
@@ -87,22 +86,22 @@ app.get('/colletion',  (req, res) => {
     });
 });
    app.get('/detruire',  (req, res) => {
-     collection('provinces').remove({}, (err, result) => {
+     db.collection('provinces').remove({}, (err, result) => {
       if (err) return console.log(err);
       console.log('detruire dans la BD');
       res.redirect('/'); 
 
     });
 });
-app.get('/addall',  (req, res) => {
+/*app.get('/addall',  (req, res) => {
+  var gime;
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  var gime = JSON.parse(data);
-     collection('provinces').insertMany(gime, (err, result) => {
+  gime = JSON.parse(data);});
+     db.collection('provinces').insertMany(gime, (err, result) => {
       if (err) return console.log(err);
       console.log('ajouts dans la BD');
       res.redirect('/'); 
 
     });
-});
-*/
+});*/
