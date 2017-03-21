@@ -68,4 +68,41 @@ app.get('/colletion',  (req, res) => {
       console.log('sauvegarder dans la BD');
       res.redirect('/');
     });
+});/*
+ <!--<%= if(adresse._id != undefined){ =><td><%= adresse._id =>
+            
+          </td><%= } =></tr>
+  <% } %>-->*/
+
+/*  app.get('/add',  (req, res) => {
+      db.collection('provinces').insert( { 
+      "code": "QC",  
+      "nom" : "Québec",
+      "capital" : (Math.Round(Math.random()*200))
+      }, (err, result) => {
+      if (err) return console.log(err);
+      console.log('ajout dans la BD');
+      res.redirect('/'); 
+
+    });
 });
+   app.get('/detruire',  (req, res) => {
+     collection('provinces').remove({}, (err, result) => {
+      if (err) return console.log(err);
+      console.log('detruire dans la BD');
+      res.redirect('/'); 
+
+    });
+});
+app.get('/addall',  (req, res) => {
+  fs.readFile('provinces.json', 'utf8', function (err, data) {
+  if (err) throw err;
+  var gime = JSON.parse(data);
+     collection('provinces').insertMany(gime, (err, result) => {
+      if (err) return console.log(err);
+      console.log('ajouts dans la BD');
+      res.redirect('/'); 
+
+    });
+});
+*/
