@@ -28,7 +28,7 @@ MongoClient.connect('mongodb://127.0.0.1:27017/cprovinces', (err, database) => {
 app.get('/',  (req, res) => {
    console.log('la route route get / = ' + req.url);
  
-    var cursor = db.collection('cprovinces').find().toArray(function(err, resultat){
+    var cursor = db.collection('provinces').find().toArray(function(err, resultat){
        if (err) return console.log(err);
     // renders index.ejs
     // affiche le contenu de la BD
@@ -44,7 +44,8 @@ app.get('/provinces',  (req, res) => {
   console.log("lire Json");
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  prov = JSON.parse(data);
+  adresse = JSON.parse(data);
+  res.redirect('/');
 
 });
   /*db.collection('cprovinces').save(req.body, (err, result) => {
@@ -53,16 +54,18 @@ app.get('/provinces',  (req, res) => {
       res.redirect('/');
     });*/
 });
-app.get('/provinces',  (req, res) => {
-  console.log("lire Json");
+
+
+app.get('/colletion',  (req, res) => {
+  console.log("lire collection");
   fs.readFile('provinces.json', 'utf8', function (err, data) {
   if (err) throw err;
-  prov = JSON.parse(data);
+  adresse = JSON.parse(data);
 
 });
-  /*db.collection('cprovinces').save(req.body, (err, result) => {
+  db.collection('provinces').save(req.body, (err, result) => {
       if (err) return console.log(err);
       console.log('sauvegarder dans la BD');
       res.redirect('/');
-    });*/
+    });
 });

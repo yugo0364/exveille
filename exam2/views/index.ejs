@@ -14,7 +14,7 @@
 
   	  		<a href="#">1-Fichier</a>
   	  		<a href="http://localhost:8081/provinces">2-Provinces</a>
-  	  		<a href="#">3-Collection</a>
+  	  		<a href="http://localhost:8081/colletion">3-Collection</a>
   	  		<a href="#">4-Ajouter un document</a>
   	  		<a href="#">5-Détruire</a>
   	  		<a href="#">6-Ajouter plusieurs</a>
@@ -22,8 +22,8 @@
   	  </header>
   	  <main>
 		  <table class="tableau">
-        <% for(var i=0; i<adresse.length; i++) {%>
-          <tr><td><%= prov.code %></td><td><%= prov.nom %></td><td><%= prov.capital %></td></tr>
+        <%= for(var i=0; i<adresse.length; i++) {%>
+          <tr><td><%= adresse.code %></td><td><%= adresse.nom %></td><td><%= adresse.capital %></td><%= if(adresse._id != undefined){ =><td><%= adresse._id =></td><%= } =></tr>
   <% } %>
 		  </table>
 	  </main>
