@@ -26,13 +26,16 @@ fs.readFile('provinces.json', 'utf8', function (err, data) {
 
 /*fn----*/
 function readData(objs){
-	var str="<h1>Les Province</h1><table><tr><td>Non Province</td><td>tag</td></tr>";
+	var str="<h1>Les Province</h1><table><tr><td>Code</td><td>Nom</td><td>Capital</td></tr>";
 	for(var prop in objs){
 		str+="<tr><td>";
-		str+=objs[prop];
+		str+=objs[prop].code;
 		str+="</td>";
 		str+="<td>";
-		str+=prop;
+		str+=objs[prop].nom;
+		str+="</td>";
+		str+="<td>";
+		str+=objs[prop].capital;
 		str+="</td></tr>";
 	}
 	str+="</table>";
@@ -48,5 +51,7 @@ function onRequest(request, response) {
   response.end();
 }
 
-http.createServer(onRequest).listen(8888);
+http.createServer(onRequest).listen(8081);
 console.log("Démarrage du serveur.");
+
+
