@@ -50,20 +50,17 @@ app.get('/provinces',  (req, res) => {
 
 
 });
-  /*db.collection('cprovinces').save(req.body, (err, result) => {
-      if (err) return console.log(err);
-      console.log('sauvegarder dans la BD');
-      res.redirect('/');
-    });*/
+
 });
 
 
 app.get('/colletion',  (req, res) => {
-
+console.log("afficher collection");
       res.redirect('/');
 });
- <!---->
+
 app.get('/add',  (req, res) => {
+
       var val=Math.round(Math.random()*100)+100;
 
       db.collection('provinces').insert( { 
@@ -79,7 +76,7 @@ app.get('/add',  (req, res) => {
    app.get('/detruire',  (req, res) => {
      db.collection('provinces').remove({}, (err, result) => {
       if (err) return console.log(err);
-      console.log('detruire dans la BD');
+      console.log('detruire tout dans la BD');
       res.redirect('/'); 
 
     });
@@ -99,7 +96,7 @@ app.get('/addall',  (req, res) => {
   gime = JSON.parse(data); console.log(gime);
   db.collection('provinces').insertMany(gime, (err, result) => {
       if (err) return console.log(err);
-      console.log('ajouts dans la BD');
+      console.log('ajout du fichier json dans la BD');
       res.redirect('/'); 
 
     });});
