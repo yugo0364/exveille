@@ -288,3 +288,34 @@ Compressing objects: 100% (6/6), done.
 Writing objects: 100% (6/6), 1010 bytes | 0 bytes/s, done.
 Total 6 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+
+C:\Users\yugol_000\veille\ex_9-10-tp2>git push
+Counting objects: 23, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 2.20 MiB | 1003.00 KiB/s, done.
+Total 23 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 2 local objects.
+To https://github.com/yugo0364/exveille.git
+   986c20a..1dcf336  master -> master
+
+C:\Users\yugol_000\veille\ex_9-10-tp2>git log
+commit 1dcf33685561c95b2183d7e5ee30a44d8ae53e9d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Sat Apr 1 01:24:21 2017 -0400
+
+
+:^C
+C:\Users\yugol_000\veille\ex_9-10-tp2>git log
+commit 1dcf33685561c95b2183d7e5ee30a44d8ae53e9d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Sat Apr 1 01:24:21 2017 -0400
+
+    voila tp2
+
+commit 1453a2f167ebd5bc941000faa8e7d845bcf4e585
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Sat Apr 1 00:16:43 2017 -0400
+
+    sans flex
+

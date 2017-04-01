@@ -16,6 +16,7 @@ li{
 
 textarea, input, input[type], .uneditable-input{
   border-color: rgba(229, 103, 23, 0.0);
+  width: 110px;
 }
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
     border-color: rgba(229, 103, 23, 0.8);
@@ -25,13 +26,18 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 .notshow{display: none;}
 
 .Table{
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 
 }
 .Table-row-item{
-  display: inline-flex;width: 125px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;width: 125px;border-style: solid;margin: 0px;padding: 15px;
 }
- span{
+ 
+      .plus{
         width: 250px;
       }
   </style>
@@ -42,13 +48,16 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
   <h1>Carnet d'adresse 6</h1>
   <div class="Table">
   <ul class="adresse">
-    <div class="Table-row"><th class="box tab">Nom    <a href="http://localhost:8081/up/nom"><i id="upp" class="fa fa-angle-double-up" aria-hidden="true"></i></a> 
-    <a href="http://localhost:8081/down/nom"><i id="downn" class="fa fa-angle-double-down" aria-hidden="true"></i></a></div>
+    <div class="Table-row">
+      <div class="Table-row-item">Nom    
+      <a href="http://localhost:8081/up/nom"><i id="upp" class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+      <a href="http://localhost:8081/down/nom"><i id="downn" class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+        </div>
     <div class="Table-row-item">Prenom    </div>
     <div class="Table-row-item">Telephone    </div>
     <div class="Table-row-item">Adresse    </div>
     <div class="Table-row-item">Codepostal    </div>
-    <div class="Table-row-item">Id</div>
+    <div class="Table-row-item plus">Id</div>
     <div class="Table-row-item">
     <button id="toggleClass"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
 
@@ -61,7 +70,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
     <div class="Table-row-item"><input class="box" type="text" placeholder="Telephone" name="telephone"></div>
     <div class="Table-row-item"><input class="box" type="text" placeholder="adresse" name="adresse"></div>
     <div class="Table-row-item"><input class="box" type="text" placeholder="codepostal" name="codepostal"></div>
-    <div class="Table-row-item"><span></span></div>
+    <div class="Table-row-item plus"><span>.</span></div>
     <div class="Table-row-item"><button type="submit">Ajouter</button></div>
   </form></div>
   <% for(var i=0; i<adresse.length; i++) {%>
@@ -72,7 +81,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
         <div class="Table-row-item"><input class="box" type="text" placeholder="Telephone" name="telephone" value="<%= adresse[i].telephone %>"></div>
         <div class="Table-row-item"><input class="box" type="text" placeholder="adresse" name="adresse" value="<%= adresse[i].adresse %>"></div>
         <div class="Table-row-item"><input class="box" type="text" placeholder="codepostal" name="codepostal" value="<%= adresse[i].codepostal %>"></div>
-        <div class="Table-row-item"><span><%= adresse[i]._id %></span></div>
+        <div class="Table-row-item plus"><span><%= adresse[i]._id %></span></div>
         <div class="Table-row-item"><button id="mod" type="submit"><i class="fa fa-file green" aria-hidden="true"></i></button>
         <span><a href="http://localhost:8081/detruire/<%= adresse[i]._id %>"><i class="fa fa-trash-o red" aria-hidden="true"></i></a></span></div>
       </form>
@@ -83,7 +92,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
     </li>
   <% } %>
   </ul>
-  <div class="Table">>
+  <div class="Table">
 
 </body>
 <script type="text/javascript">
