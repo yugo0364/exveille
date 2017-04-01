@@ -1,0 +1,300 @@
+
+C:\Users\yugol_000\veille\exam2>git log
+commit 3b574591c325d1cf9e4f74719bc34beb59415341
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 17:09:23 2017 -0400
+
+    tout est terminer YEAYYYYY
+
+commit c28b409d7e0b55c6a1a75e3b5601e4221b9916c2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:59:15 2017 -0400
+
+    2&3 terminer yeay le numero 6 ne fonctionne toujours pas :(@
+
+commit 3b574591c325d1cf9e4f74719bc34beb59415341
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 17:09:23 2017 -0400
+
+    tout est terminer YEAYYYYY
+
+commit c28b409d7e0b55c6a1a75e3b5601e4221b9916c2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:59:15 2017 -0400
+
+    2&3 terminer yeay le numero 6 ne fonctionne toujours pas :(@
+
+commit b8307f23ce2fbc0862851b132ea91a0e77597f3f
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:29:35 2017 -0400
+
+    4&5 terminer yeay
+
+commit 5465be1e539b96537b4a1c7a370e5eca5d93a05c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:06:43 2017 -0400
+
+    ex4-5-6 commencer
+
+commit 9e838ca2dbcb51c5bdf62c61545a287080813d0d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:46:37 2017 -0400
+
+    debut etape4
+
+commit fa0adb00004efb199636f816a39ed52bc15e527c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:28:52 2017 -0400
+
+    debut etape3
+
+commit a9284f0792760c1e299b2e34b81123ffcba963f2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:38:33 2017 -0400
+
+    etape1 terminer->fichier lireCollection.js
+
+commit 475dd694eb1366a183aaea69d0b429573b391e8d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:25:49 2017 -0400
+
+    debut examen et etape1
+
+commit 5d893bf6bb6f8cae61a2227e42e0c1cc0845e61a
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 09:47:32 2017 -0500
+
+    remisefinal
+
+commit 0dd41b5ab4bbe9250f4c56a016183f834195bad4
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 08:47:19 2017 -0500
+
+    creationfichierccssethtml
+
+commit 2aee455d67076f7ed31b3fd6c4a7bfdf126d86e5
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 08:36:01 2017 -0500
+
+    ajoutsvg
+
+commit df2b84e170c8dee748ccd029cd42d9bd45b06390
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 7 18:32:17 2017 -0500
+
+    fini10
+
+commit 6550dcc50a756175b7e7f558d0e16640117492a4
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 7 15:35:38 2017 -0500
+
+    ex9fini
+
+commit 3a1fa8bb408bdf19491c7c8d1c91d74b61b1222a
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 2 09:51:01 2017 -0500
+
+    ok
+
+commit 636defac97d776e88d0e6427193db4a6df5e9170
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Fri Feb 24 01:16:22 2017 -0500
+
+    tp1
+
+commit d23dfa4b3fde54fe9aeeda3ea619a68bd3793259
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Feb 21 18:03:31 2017 -0500
+
+    node
+commit fa0adb00004efb199636f816a39ed52bc15e527c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:28:52 2017 -0400
+
+    debut etape3
+
+commit a9284f0792760c1e299b2e34b81123ffcba963f2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:38:33 2017 -0400
+
+    etape1 terminer->fichier lireCollection.js
+
+commit 475dd694eb1366a183aaea69d0b429573b391e8d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:25:49 2017 -0400
+
+    debut examen et etape1
+
+commit 5d893bf6bb6f8cae61a2227e42e0c1cc0845e61a
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 09:47:32 2017 -0500
+
+    remisefinal
+
+commit 0dd41b5ab4bbe9250f4c56a016183f834195bad4
+commit 9e838ca2dbcb51c5bdf62c61545a287080813d0d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:46:37 2017 -0400
+
+    debut etape4
+
+commit fa0adb00004efb199636f816a39ed52bc15e527c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:28:52 2017 -0400
+
+    debut etape3
+
+commit a9284f0792760c1e299b2e34b81123ffcba963f2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:38:33 2017 -0400
+
+    etape1 terminer->fichier lireCollection.js
+
+commit 475dd694eb1366a183aaea69d0b429573b391e8d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:25:49 2017 -0400
+
+    debut examen et etape1
+
+:
+
+commit 9e838ca2dbcb51c5bdf62c61545a287080813d0d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:46:37 2017 -0400
+
+    debut etape4
+
+commit fa0adb00004efb199636f816a39ed52bc15e527c
+commit 3b574591c325d1cf9e4f74719bc34beb59415341
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 17:09:23 2017 -0400
+
+    tout est terminer YEAYYYYY
+
+commit c28b409d7e0b55c6a1a75e3b5601e4221b9916c2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:59:15 2017 -0400
+
+    2&3 terminer yeay le numero 6 ne fonctionne toujours pas :(@
+
+commit b8307f23ce2fbc0862851b132ea91a0e77597f3f
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:29:35 2017 -0400
+
+    4&5 terminer yeay
+
+commit 5465be1e539b96537b4a1c7a370e5eca5d93a05c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:06:43 2017 -0400
+
+    ex4-5-6 commencer
+
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:28:52 2017 -0400
+
+    debut etape3
+
+commit a9284f0792760c1e299b2e34b81123ffcba963f2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:38:33 2017 -0400
+
+    etape1 terminer->fichier lireCollection.js
+
+commit 475dd694eb1366a183aaea69d0b429573b391e8d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:25:49 2017 -0400
+
+    debut examen et etape1
+
+commit 5d893bf6bb6f8cae61a2227e42e0c1cc0845e61a
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 09:47:32 2017 -0500
+
+    remisefinal
+
+commit 0dd41b5ab4bbe9250f4c56a016183f834195bad4
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 08:47:19 2017 -0500
+
+    creationfichierccssethtml
+
+commit 2aee455d67076f7ed31b3fd6c4a7bfdf126d86e5
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 08:36:01 2017 -0500
+
+    ajoutsvg
+:git commit -m "correction avant terminer"
+[master 986c20a] correction avant terminer
+ 3 files changed, 10 insertions(+), 10 deletions(-)
+ create mode 100644 exam2/comment.txt
+
+:git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 660 bytes | 0 bytes/s, done.
+Total 7 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/yugo0364/exveille.git
+   3b57459..986c20a  master -> master
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\yugol_000\veille\exam2>git log
+commit 986c20a2d99bfb3014110b9033544ae3ec8fa9d6
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 17:31:22 2017 -0400
+
+    correction avant terminer
+
+commit 3b574591c325d1cf9e4f74719bc34beb59415341
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 17:09:23 2017 -0400
+
+    tout est terminer YEAYYYYY
+
+commit c28b409d7e0b55c6a1a75e3b5601e4221b9916c2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:59:15 2017 -0400
+
+    2&3 terminer yeay le numero 6 ne fonctionne toujours pas :(@
+
+commit b8307f23ce2fbc0862851b132ea91a0e77597f3f
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:29:35 2017 -0400
+
+    4&5 terminer yeay
+
+commit 5465be1e539b96537b4a1c7a370e5eca5d93a05c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 16:06:43 2017 -0400
+
+    ex4-5-6 commencer
+
+commit 9e838ca2dbcb51c5bdf62c61545a287080813d0d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:46:37 2017 -0400
+
+    debut etape4
+
+commit fa0adb00004efb199636f816a39ed52bc15e527c
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 15:28:52 2017 -0400
+
+    debut etape3
+
+commit a9284f0792760c1e299b2e34b81123ffcba963f2
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:38:33 2017 -0400
+
+    etape1 terminer->fichier lireCollection.js
+
+commit 475dd694eb1366a183aaea69d0b429573b391e8d
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Tue Mar 21 14:25:49 2017 -0400
+
+    debut examen et etape1
+
+commit 5d893bf6bb6f8cae61a2227e42e0c1cc0845e61a
+Author: yugo <yugo0364@yahoo.ca>
+Date:   Thu Mar 9 09:47:32 2017 -0500
+
+:

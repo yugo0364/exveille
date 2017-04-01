@@ -1,0 +1,282 @@
+        deleted:    ../ex_9/node_modules/mime/types.json
+        deleted:    ../ex_9/node_modules/mongodb-core/.coveralls.yml
+        deleted:    ../ex_9/node_modules/mongodb-core/.eslintrc
+        deleted:    ../ex_9/node_modules/mongodb-core/HISTORY.md
+        deleted:    ../ex_9/node_modules/mongodb-core/LICENSE
+        deleted:    ../ex_9/node_modules/mongodb-core/Makefile
+        deleted:    ../ex_9/node_modules/mongodb-core/README.md
+        deleted:    ../ex_9/node_modules/mongodb-core/TESTING.md
+        deleted:    ../ex_9/node_modules/mongodb-core/THIRD-PARTY-NOTICES
+        deleted:    ../ex_9/node_modules/mongodb-core/blocking_test.js
+        deleted:    ../ex_9/node_modules/mongodb-core/conf.json
+        deleted:    ../ex_9/node_modules/mongodb-core/connect_test.js
+        deleted:    ../ex_9/node_modules/mongodb-core/index.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/gssapi.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/mongocr.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/plain.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/scram.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/sspi.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/auth/x509.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/command_result.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/commands.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/connection.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/logger.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/pool.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/connection/utils.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/cursor.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/error.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/tools/smoke_plugin.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/mongos.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/read_preference.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/replset.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/replset_state.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/server.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/topologies/shared.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/wireprotocol/commands.js
+        deleted:    ../ex_9/node_modules/mongodb-core/lib/wireprotocol/shared.js
+        deleted:    ../ex_9/node_modules/mongodb-core/package.json
+        deleted:    ../ex_9/node_modules/mongodb-core/simple_2_document_limit_toArray.dat
+        deleted:    ../ex_9/node_modules/mongodb-core/test.js
+        deleted:    ../ex_9/node_modules/mongodb-core/test1.js
+        deleted:    ../ex_9/node_modules/mongodb-core/test_bug.js
+        deleted:    ../ex_9/node_modules/mongodb-core/yarn.lock
+        deleted:    ../ex_9/node_modules/mongodb/.coveralls.yml
+        deleted:    ../ex_9/node_modules/mongodb/.eslintrc
+        deleted:    ../ex_9/node_modules/mongodb/HISTORY.md
+        deleted:    ../ex_9/node_modules/mongodb/LICENSE
+        deleted:    ../ex_9/node_modules/mongodb/Makefile
+        deleted:    ../ex_9/node_modules/mongodb/README.md
+        deleted:    ../ex_9/node_modules/mongodb/THIRD-PARTY-NOTICES
+        deleted:    ../ex_9/node_modules/mongodb/boot_auth.js
+        deleted:    ../ex_9/node_modules/mongodb/conf.json
+        deleted:    ../ex_9/node_modules/mongodb/index.js
+        deleted:    ../ex_9/node_modules/mongodb/insert_bench.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/admin.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/aggregation_cursor.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/apm.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/bulk/common.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/bulk/ordered.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/bulk/unordered.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/collection.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/command_cursor.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/cursor.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/db.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/gridfs-stream/download.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/gridfs-stream/index.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/gridfs-stream/upload.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/gridfs/chunk.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/gridfs/grid_store.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/metadata.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/mongo_client.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/mongos.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/read_preference.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/replset.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/server.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/topology_base.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/url_parser.js
+        deleted:    ../ex_9/node_modules/mongodb/lib/utils.js
+        deleted:    ../ex_9/node_modules/mongodb/package.json
+        deleted:    ../ex_9/node_modules/mongodb/yarn.lock
+        deleted:    ../ex_9/node_modules/ms/.npmignore
+        deleted:    ../ex_9/node_modules/ms/History.md
+        deleted:    ../ex_9/node_modules/ms/LICENSE
+        deleted:    ../ex_9/node_modules/ms/README.md
+        deleted:    ../ex_9/node_modules/ms/index.js
+        deleted:    ../ex_9/node_modules/ms/package.json
+        deleted:    ../ex_9/node_modules/negotiator/HISTORY.md
+        deleted:    ../ex_9/node_modules/negotiator/LICENSE
+        deleted:    ../ex_9/node_modules/negotiator/README.md
+        deleted:    ../ex_9/node_modules/negotiator/index.js
+        deleted:    ../ex_9/node_modules/negotiator/lib/charset.js
+        deleted:    ../ex_9/node_modules/negotiator/lib/encoding.js
+        deleted:    ../ex_9/node_modules/negotiator/lib/language.js
+        deleted:    ../ex_9/node_modules/negotiator/lib/mediaType.js
+        deleted:    ../ex_9/node_modules/negotiator/package.json
+        deleted:    ../ex_9/node_modules/on-finished/HISTORY.md
+        deleted:    ../ex_9/node_modules/on-finished/LICENSE
+        deleted:    ../ex_9/node_modules/on-finished/README.md
+        deleted:    ../ex_9/node_modules/on-finished/index.js
+        deleted:    ../ex_9/node_modules/on-finished/package.json
+        deleted:    ../ex_9/node_modules/parseurl/HISTORY.md
+        deleted:    ../ex_9/node_modules/parseurl/LICENSE
+        deleted:    ../ex_9/node_modules/parseurl/README.md
+        deleted:    ../ex_9/node_modules/parseurl/index.js
+        deleted:    ../ex_9/node_modules/parseurl/package.json
+        deleted:    ../ex_9/node_modules/path-to-regexp/History.md
+        deleted:    ../ex_9/node_modules/path-to-regexp/LICENSE
+        deleted:    ../ex_9/node_modules/path-to-regexp/Readme.md
+        deleted:    ../ex_9/node_modules/path-to-regexp/index.js
+        deleted:    ../ex_9/node_modules/path-to-regexp/package.json
+        deleted:    ../ex_9/node_modules/process-nextick-args/.travis.yml
+        deleted:    ../ex_9/node_modules/process-nextick-args/index.js
+        deleted:    ../ex_9/node_modules/process-nextick-args/license.md
+        deleted:    ../ex_9/node_modules/process-nextick-args/package.json
+        deleted:    ../ex_9/node_modules/process-nextick-args/readme.md
+        deleted:    ../ex_9/node_modules/process-nextick-args/test.js
+        deleted:    ../ex_9/node_modules/proxy-addr/HISTORY.md
+        deleted:    ../ex_9/node_modules/proxy-addr/LICENSE
+        deleted:    ../ex_9/node_modules/proxy-addr/README.md
+        deleted:    ../ex_9/node_modules/proxy-addr/index.js
+        deleted:    ../ex_9/node_modules/proxy-addr/package.json
+        deleted:    ../ex_9/node_modules/qs/.eslintignore
+        deleted:    ../ex_9/node_modules/qs/.eslintrc
+        deleted:    ../ex_9/node_modules/qs/.jscs.json
+        deleted:    ../ex_9/node_modules/qs/CHANGELOG.md
+        deleted:    ../ex_9/node_modules/qs/CONTRIBUTING.md
+        deleted:    ../ex_9/node_modules/qs/LICENSE
+        deleted:    ../ex_9/node_modules/qs/dist/qs.js
+        deleted:    ../ex_9/node_modules/qs/lib/index.js
+        deleted:    ../ex_9/node_modules/qs/lib/parse.js
+        deleted:    ../ex_9/node_modules/qs/lib/stringify.js
+        deleted:    ../ex_9/node_modules/qs/lib/utils.js
+        deleted:    ../ex_9/node_modules/qs/package.json
+        deleted:    ../ex_9/node_modules/qs/test/index.js
+        deleted:    ../ex_9/node_modules/qs/test/parse.js
+        deleted:    ../ex_9/node_modules/qs/test/stringify.js
+        deleted:    ../ex_9/node_modules/qs/test/utils.js
+        deleted:    ../ex_9/node_modules/range-parser/HISTORY.md
+        deleted:    ../ex_9/node_modules/range-parser/LICENSE
+        deleted:    ../ex_9/node_modules/range-parser/README.md
+        deleted:    ../ex_9/node_modules/range-parser/index.js
+        deleted:    ../ex_9/node_modules/range-parser/package.json
+        deleted:    ../ex_9/node_modules/raw-body/HISTORY.md
+        deleted:    ../ex_9/node_modules/raw-body/LICENSE
+        deleted:    ../ex_9/node_modules/raw-body/README.md
+        deleted:    ../ex_9/node_modules/raw-body/index.js
+        deleted:    ../ex_9/node_modules/raw-body/package.json
+        deleted:    ../ex_9/node_modules/readable-stream/.npmignore
+        deleted:    ../ex_9/node_modules/readable-stream/.travis.yml
+        deleted:    ../ex_9/node_modules/readable-stream/LICENSE
+        deleted:    ../ex_9/node_modules/readable-stream/README.md
+        deleted:    ../ex_9/node_modules/readable-stream/doc/stream.md
+        deleted:    ../ex_9/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+        deleted:    ../ex_9/node_modules/readable-stream/duplex.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/_stream_duplex.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/_stream_passthrough.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/_stream_readable.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/_stream_transform.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/_stream_writable.js
+        deleted:    ../ex_9/node_modules/readable-stream/lib/internal/streams/BufferList.js
+        deleted:    ../ex_9/node_modules/readable-stream/package.json
+        deleted:    ../ex_9/node_modules/readable-stream/passthrough.js
+        deleted:    ../ex_9/node_modules/readable-stream/readable.js
+        deleted:    ../ex_9/node_modules/readable-stream/transform.js
+        deleted:    ../ex_9/node_modules/readable-stream/writable.js
+        deleted:    ../ex_9/node_modules/require_optional/.npmignore
+        deleted:    ../ex_9/node_modules/require_optional/.travis.yml
+        deleted:    ../ex_9/node_modules/require_optional/LICENSE
+        deleted:    ../ex_9/node_modules/require_optional/README.md
+        deleted:    ../ex_9/node_modules/require_optional/index.js
+        deleted:    ../ex_9/node_modules/require_optional/package.json
+        deleted:    ../ex_9/node_modules/require_optional/test/require_optional_tests.js
+        deleted:    ../ex_9/node_modules/resolve-from/index.js
+        deleted:    ../ex_9/node_modules/resolve-from/license
+        deleted:    ../ex_9/node_modules/resolve-from/package.json
+        deleted:    ../ex_9/node_modules/resolve-from/readme.md
+        deleted:    ../ex_9/node_modules/semver/LICENSE
+        deleted:    ../ex_9/node_modules/semver/README.md
+        deleted:    ../ex_9/node_modules/semver/bin/semver
+        deleted:    ../ex_9/node_modules/semver/package.json
+        deleted:    ../ex_9/node_modules/semver/range.bnf
+        deleted:    ../ex_9/node_modules/semver/semver.js
+        deleted:    ../ex_9/node_modules/send/HISTORY.md
+        deleted:    ../ex_9/node_modules/send/LICENSE
+        deleted:    ../ex_9/node_modules/send/README.md
+        deleted:    ../ex_9/node_modules/send/index.js
+        deleted:    ../ex_9/node_modules/send/node_modules/ms/LICENSE.md
+        deleted:    ../ex_9/node_modules/send/node_modules/ms/README.md
+        deleted:    ../ex_9/node_modules/send/node_modules/ms/index.js
+        deleted:    ../ex_9/node_modules/send/node_modules/ms/package.json
+        deleted:    ../ex_9/node_modules/send/package.json
+        deleted:    ../ex_9/node_modules/serve-static/HISTORY.md
+        deleted:    ../ex_9/node_modules/serve-static/LICENSE
+        deleted:    ../ex_9/node_modules/serve-static/README.md
+        deleted:    ../ex_9/node_modules/serve-static/index.js
+        deleted:    ../ex_9/node_modules/serve-static/package.json
+        deleted:    ../ex_9/node_modules/setprototypeof/LICENSE
+        deleted:    ../ex_9/node_modules/setprototypeof/README.md
+        deleted:    ../ex_9/node_modules/setprototypeof/index.js
+        deleted:    ../ex_9/node_modules/setprototypeof/package.json
+        deleted:    ../ex_9/node_modules/statuses/HISTORY.md
+        deleted:    ../ex_9/node_modules/statuses/LICENSE
+        deleted:    ../ex_9/node_modules/statuses/README.md
+        deleted:    ../ex_9/node_modules/statuses/codes.json
+        deleted:    ../ex_9/node_modules/statuses/index.js
+        deleted:    ../ex_9/node_modules/statuses/package.json
+        deleted:    ../ex_9/node_modules/string_decoder/.npmignore
+        deleted:    ../ex_9/node_modules/string_decoder/LICENSE
+        deleted:    ../ex_9/node_modules/string_decoder/README.md
+        deleted:    ../ex_9/node_modules/string_decoder/index.js
+        deleted:    ../ex_9/node_modules/string_decoder/package.json
+        deleted:    ../ex_9/node_modules/type-is/HISTORY.md
+        deleted:    ../ex_9/node_modules/type-is/LICENSE
+        deleted:    ../ex_9/node_modules/type-is/README.md
+        deleted:    ../ex_9/node_modules/type-is/index.js
+        deleted:    ../ex_9/node_modules/type-is/package.json
+        deleted:    ../ex_9/node_modules/unpipe/HISTORY.md
+        deleted:    ../ex_9/node_modules/unpipe/LICENSE
+        deleted:    ../ex_9/node_modules/unpipe/README.md
+        deleted:    ../ex_9/node_modules/unpipe/index.js
+        deleted:    ../ex_9/node_modules/unpipe/package.json
+        deleted:    ../ex_9/node_modules/util-deprecate/History.md
+        deleted:    ../ex_9/node_modules/util-deprecate/LICENSE
+        deleted:    ../ex_9/node_modules/util-deprecate/README.md
+        deleted:    ../ex_9/node_modules/util-deprecate/browser.js
+        deleted:    ../ex_9/node_modules/util-deprecate/node.js
+        deleted:    ../ex_9/node_modules/util-deprecate/package.json
+        deleted:    ../ex_9/node_modules/utils-merge/.travis.yml
+        deleted:    ../ex_9/node_modules/utils-merge/LICENSE
+        deleted:    ../ex_9/node_modules/utils-merge/README.md
+        deleted:    ../ex_9/node_modules/utils-merge/index.js
+        deleted:    ../ex_9/node_modules/utils-merge/package.json
+        deleted:    ../ex_9/node_modules/vary/HISTORY.md
+        deleted:    ../ex_9/node_modules/vary/LICENSE
+        deleted:    ../ex_9/node_modules/vary/README.md
+        deleted:    ../ex_9/node_modules/vary/index.js
+        deleted:    ../ex_9/node_modules/vary/package.json
+        deleted:    ../ex_9/package.json
+        deleted:    ../ex_9/public/data/usagers.json
+        deleted:    ../ex_9/public/html/04_form.html
+        deleted:    ../ex_9/public/html/05_form.html
+        deleted:    ../ex_9/public/html/form.html
+        deleted:    ../ex_9/public/html/formd.html
+        deleted:    ../ex_9/views/index.ejs
+        deleted:    ../ex_9/views/index1.ejs
+        deleted:    ../ex_9/views/indexdel.ejs
+        modified:   forme.svg
+        modified:   index.html
+        modified:   style.css
+        modified:   ../semaine_01/01_exemple (modified content)
+        modified:   ../semaine_01/ex1 (untracked content)
+
+Untracked files:
+        ../ex_9-10/
+
+no changes added to commit
+
+C:\Users\yugol_000\veille\exam1>git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.40 KiB | 0 bytes/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local objects.
+To https://github.com/yugo0364/exveille.git
+   df2b84e..0dd41b5  master -> master
+
+C:\Users\yugol_000\veille\exam1>git add .
+warning: LF will be replaced by CRLF in exam1/forme.svg.
+The file will have its original line endings in your working directory.
+
+C:\Users\yugol_000\veille\exam1>git commit -m remise final
+error: pathspec 'final' did not match any file(s) known to git.
+
+C:\Users\yugol_000\veille\exam1>git commit -m remisefinal
+[master 5d893bf] remisefinal
+ 3 files changed, 66 insertions(+), 13 deletions(-)
+ rewrite exam1/forme.svg (100%)
+
+C:\Users\yugol_000\veille\exam1>

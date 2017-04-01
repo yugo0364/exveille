@@ -11,7 +11,7 @@ animation: tourne 2s linear infinite;
     }
 }
 #d90{transform:rotate(90deg);}
-.coeur{ fill:red;}
+.coeur{ fill:red;stroke:blue;stroke-width:4;stroke-dasharray: 0 500;animation: bord 4.5s linear alternate infinite;}
 .hell{
   stroke:blue;
   fill:lime;

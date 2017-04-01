@@ -1,0 +1,290 @@
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/topologies/replset.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/topologies/replset_state.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/topologies/server.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/topologies/shared.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/wireprotocol/2_4_support.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/wireprotocol/2_6_support.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/wireprotocol/commands.js
+ create mode 100644 ex_9/node_modules/mongodb-core/lib/wireprotocol/shared.js
+ create mode 100644 ex_9/node_modules/mongodb-core/package.json
+ create mode 100644 ex_9/node_modules/mongodb-core/simple_2_document_limit_toArray.dat
+ create mode 100644 ex_9/node_modules/mongodb-core/test.js
+ create mode 100644 ex_9/node_modules/mongodb-core/test1.js
+ create mode 100644 ex_9/node_modules/mongodb-core/test_bug.js
+ create mode 100644 ex_9/node_modules/mongodb-core/yarn.lock
+ create mode 100644 ex_9/node_modules/mongodb/.coveralls.yml
+ create mode 100644 ex_9/node_modules/mongodb/.eslintrc
+ create mode 100644 ex_9/node_modules/mongodb/HISTORY.md
+ create mode 100644 ex_9/node_modules/mongodb/LICENSE
+ create mode 100644 ex_9/node_modules/mongodb/Makefile
+ create mode 100644 ex_9/node_modules/mongodb/README.md
+ create mode 100644 ex_9/node_modules/mongodb/THIRD-PARTY-NOTICES
+ create mode 100644 ex_9/node_modules/mongodb/boot_auth.js
+ create mode 100644 ex_9/node_modules/mongodb/conf.json
+ create mode 100644 ex_9/node_modules/mongodb/index.js
+ create mode 100644 ex_9/node_modules/mongodb/insert_bench.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/admin.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/aggregation_cursor.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/apm.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/bulk/common.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/bulk/ordered.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/bulk/unordered.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/collection.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/command_cursor.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/cursor.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/db.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/gridfs-stream/download.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/gridfs-stream/index.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/gridfs-stream/upload.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/gridfs/chunk.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/gridfs/grid_store.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/metadata.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/mongo_client.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/mongos.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/read_preference.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/replset.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/server.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/topology_base.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/url_parser.js
+ create mode 100644 ex_9/node_modules/mongodb/lib/utils.js
+ create mode 100644 ex_9/node_modules/mongodb/package.json
+ create mode 100644 ex_9/node_modules/mongodb/yarn.lock
+ create mode 100644 ex_9/node_modules/ms/.npmignore
+ create mode 100644 ex_9/node_modules/ms/History.md
+ create mode 100644 ex_9/node_modules/ms/LICENSE
+ create mode 100644 ex_9/node_modules/ms/README.md
+ create mode 100644 ex_9/node_modules/ms/index.js
+ create mode 100644 ex_9/node_modules/ms/package.json
+ create mode 100644 ex_9/node_modules/negotiator/HISTORY.md
+ create mode 100644 ex_9/node_modules/negotiator/LICENSE
+ create mode 100644 ex_9/node_modules/negotiator/README.md
+ create mode 100644 ex_9/node_modules/negotiator/index.js
+ create mode 100644 ex_9/node_modules/negotiator/lib/charset.js
+ create mode 100644 ex_9/node_modules/negotiator/lib/encoding.js
+ create mode 100644 ex_9/node_modules/negotiator/lib/language.js
+ create mode 100644 ex_9/node_modules/negotiator/lib/mediaType.js
+ create mode 100644 ex_9/node_modules/negotiator/package.json
+ create mode 100644 ex_9/node_modules/on-finished/HISTORY.md
+ create mode 100644 ex_9/node_modules/on-finished/LICENSE
+ create mode 100644 ex_9/node_modules/on-finished/README.md
+ create mode 100644 ex_9/node_modules/on-finished/index.js
+ create mode 100644 ex_9/node_modules/on-finished/package.json
+ create mode 100644 ex_9/node_modules/parseurl/HISTORY.md
+ create mode 100644 ex_9/node_modules/parseurl/LICENSE
+ create mode 100644 ex_9/node_modules/parseurl/README.md
+ create mode 100644 ex_9/node_modules/parseurl/index.js
+ create mode 100644 ex_9/node_modules/parseurl/package.json
+ create mode 100644 ex_9/node_modules/path-to-regexp/History.md
+ create mode 100644 ex_9/node_modules/path-to-regexp/LICENSE
+ create mode 100644 ex_9/node_modules/path-to-regexp/Readme.md
+ create mode 100644 ex_9/node_modules/path-to-regexp/index.js
+ create mode 100644 ex_9/node_modules/path-to-regexp/package.json
+ create mode 100644 ex_9/node_modules/process-nextick-args/.travis.yml
+ create mode 100644 ex_9/node_modules/process-nextick-args/index.js
+ create mode 100644 ex_9/node_modules/process-nextick-args/license.md
+ create mode 100644 ex_9/node_modules/process-nextick-args/package.json
+ create mode 100644 ex_9/node_modules/process-nextick-args/readme.md
+ create mode 100644 ex_9/node_modules/process-nextick-args/test.js
+ create mode 100644 ex_9/node_modules/proxy-addr/HISTORY.md
+ create mode 100644 ex_9/node_modules/proxy-addr/LICENSE
+ create mode 100644 ex_9/node_modules/proxy-addr/README.md
+ create mode 100644 ex_9/node_modules/proxy-addr/index.js
+ create mode 100644 ex_9/node_modules/proxy-addr/package.json
+ create mode 100644 ex_9/node_modules/qs/.eslintignore
+ create mode 100644 ex_9/node_modules/qs/.eslintrc
+ create mode 100644 ex_9/node_modules/qs/.jscs.json
+ create mode 100644 ex_9/node_modules/qs/CHANGELOG.md
+ create mode 100644 ex_9/node_modules/qs/CONTRIBUTING.md
+ create mode 100644 ex_9/node_modules/qs/LICENSE
+ create mode 100644 ex_9/node_modules/qs/dist/qs.js
+ create mode 100644 ex_9/node_modules/qs/lib/index.js
+ create mode 100644 ex_9/node_modules/qs/lib/parse.js
+ create mode 100644 ex_9/node_modules/qs/lib/stringify.js
+ create mode 100644 ex_9/node_modules/qs/lib/utils.js
+ create mode 100644 ex_9/node_modules/qs/package.json
+ create mode 100644 ex_9/node_modules/qs/test/index.js
+ create mode 100644 ex_9/node_modules/qs/test/parse.js
+ create mode 100644 ex_9/node_modules/qs/test/stringify.js
+ create mode 100644 ex_9/node_modules/qs/test/utils.js
+ create mode 100644 ex_9/node_modules/range-parser/HISTORY.md
+ create mode 100644 ex_9/node_modules/range-parser/LICENSE
+ create mode 100644 ex_9/node_modules/range-parser/README.md
+ create mode 100644 ex_9/node_modules/range-parser/index.js
+ create mode 100644 ex_9/node_modules/range-parser/package.json
+ create mode 100644 ex_9/node_modules/raw-body/HISTORY.md
+ create mode 100644 ex_9/node_modules/raw-body/LICENSE
+ create mode 100644 ex_9/node_modules/raw-body/README.md
+ create mode 100644 ex_9/node_modules/raw-body/index.js
+ create mode 100644 ex_9/node_modules/raw-body/package.json
+ create mode 100644 ex_9/node_modules/readable-stream/.npmignore
+ create mode 100644 ex_9/node_modules/readable-stream/.travis.yml
+ create mode 100644 ex_9/node_modules/readable-stream/LICENSE
+ create mode 100644 ex_9/node_modules/readable-stream/README.md
+ create mode 100644 ex_9/node_modules/readable-stream/doc/stream.md
+ create mode 100644 ex_9/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+ create mode 100644 ex_9/node_modules/readable-stream/duplex.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/_stream_duplex.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/_stream_passthrough.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/_stream_readable.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/_stream_transform.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/_stream_writable.js
+ create mode 100644 ex_9/node_modules/readable-stream/lib/internal/streams/BufferList.js
+ create mode 100644 ex_9/node_modules/readable-stream/package.json
+ create mode 100644 ex_9/node_modules/readable-stream/passthrough.js
+ create mode 100644 ex_9/node_modules/readable-stream/readable.js
+ create mode 100644 ex_9/node_modules/readable-stream/transform.js
+ create mode 100644 ex_9/node_modules/readable-stream/writable.js
+ create mode 100644 ex_9/node_modules/require_optional/.npmignore
+ create mode 100644 ex_9/node_modules/require_optional/.travis.yml
+ create mode 100644 ex_9/node_modules/require_optional/LICENSE
+ create mode 100644 ex_9/node_modules/require_optional/README.md
+ create mode 100644 ex_9/node_modules/require_optional/index.js
+ create mode 100644 ex_9/node_modules/require_optional/package.json
+ create mode 100644 ex_9/node_modules/require_optional/test/require_optional_tests.js
+ create mode 100644 ex_9/node_modules/resolve-from/index.js
+ create mode 100644 ex_9/node_modules/resolve-from/license
+ create mode 100644 ex_9/node_modules/resolve-from/package.json
+ create mode 100644 ex_9/node_modules/resolve-from/readme.md
+ create mode 100644 ex_9/node_modules/semver/LICENSE
+ create mode 100644 ex_9/node_modules/semver/README.md
+ create mode 100644 ex_9/node_modules/semver/bin/semver
+ create mode 100644 ex_9/node_modules/semver/package.json
+ create mode 100644 ex_9/node_modules/semver/range.bnf
+ create mode 100644 ex_9/node_modules/semver/semver.js
+ create mode 100644 ex_9/node_modules/send/HISTORY.md
+ create mode 100644 ex_9/node_modules/send/LICENSE
+ create mode 100644 ex_9/node_modules/send/README.md
+ create mode 100644 ex_9/node_modules/send/index.js
+ create mode 100644 ex_9/node_modules/send/node_modules/ms/LICENSE.md
+ create mode 100644 ex_9/node_modules/send/node_modules/ms/README.md
+ create mode 100644 ex_9/node_modules/send/node_modules/ms/index.js
+ create mode 100644 ex_9/node_modules/send/node_modules/ms/package.json
+ create mode 100644 ex_9/node_modules/send/package.json
+ create mode 100644 ex_9/node_modules/serve-static/HISTORY.md
+ create mode 100644 ex_9/node_modules/serve-static/LICENSE
+ create mode 100644 ex_9/node_modules/serve-static/README.md
+ create mode 100644 ex_9/node_modules/serve-static/index.js
+ create mode 100644 ex_9/node_modules/serve-static/package.json
+ create mode 100644 ex_9/node_modules/setprototypeof/LICENSE
+ create mode 100644 ex_9/node_modules/setprototypeof/README.md
+ create mode 100644 ex_9/node_modules/setprototypeof/index.js
+ create mode 100644 ex_9/node_modules/setprototypeof/package.json
+ create mode 100644 ex_9/node_modules/statuses/HISTORY.md
+ create mode 100644 ex_9/node_modules/statuses/LICENSE
+ create mode 100644 ex_9/node_modules/statuses/README.md
+ create mode 100644 ex_9/node_modules/statuses/codes.json
+ create mode 100644 ex_9/node_modules/statuses/index.js
+ create mode 100644 ex_9/node_modules/statuses/package.json
+ create mode 100644 ex_9/node_modules/string_decoder/.npmignore
+ create mode 100644 ex_9/node_modules/string_decoder/LICENSE
+ create mode 100644 ex_9/node_modules/string_decoder/README.md
+ create mode 100644 ex_9/node_modules/string_decoder/index.js
+ create mode 100644 ex_9/node_modules/string_decoder/package.json
+ create mode 100644 ex_9/node_modules/type-is/HISTORY.md
+ create mode 100644 ex_9/node_modules/type-is/LICENSE
+ create mode 100644 ex_9/node_modules/type-is/README.md
+ create mode 100644 ex_9/node_modules/type-is/index.js
+ create mode 100644 ex_9/node_modules/type-is/package.json
+ create mode 100644 ex_9/node_modules/unpipe/HISTORY.md
+ create mode 100644 ex_9/node_modules/unpipe/LICENSE
+ create mode 100644 ex_9/node_modules/unpipe/README.md
+ create mode 100644 ex_9/node_modules/unpipe/index.js
+ create mode 100644 ex_9/node_modules/unpipe/package.json
+ create mode 100644 ex_9/node_modules/util-deprecate/History.md
+ create mode 100644 ex_9/node_modules/util-deprecate/LICENSE
+ create mode 100644 ex_9/node_modules/util-deprecate/README.md
+ create mode 100644 ex_9/node_modules/util-deprecate/browser.js
+ create mode 100644 ex_9/node_modules/util-deprecate/node.js
+ create mode 100644 ex_9/node_modules/util-deprecate/package.json
+ create mode 100644 ex_9/node_modules/utils-merge/.travis.yml
+ create mode 100644 ex_9/node_modules/utils-merge/LICENSE
+ create mode 100644 ex_9/node_modules/utils-merge/README.md
+ create mode 100644 ex_9/node_modules/utils-merge/index.js
+ create mode 100644 ex_9/node_modules/utils-merge/package.json
+ create mode 100644 ex_9/node_modules/vary/HISTORY.md
+ create mode 100644 ex_9/node_modules/vary/LICENSE
+ create mode 100644 ex_9/node_modules/vary/README.md
+ create mode 100644 ex_9/node_modules/vary/index.js
+ create mode 100644 ex_9/node_modules/vary/package.json
+ create mode 100644 ex_9/package.json
+ create mode 100644 ex_9/public/data/usagers.json
+ create mode 100644 ex_9/public/html/04_form.html
+ create mode 100644 ex_9/public/html/05_form.html
+ create mode 100644 ex_9/public/html/form.html
+ create mode 100644 ex_9/public/html/formd.html
+ create mode 100644 ex_9/views/index.ejs
+ create mode 100644 ex_9/views/index1.ejs
+ create mode 100644 ex_9/views/indexdel.ejs
+ create mode 100644 node1/etats.js
+ create mode 100644 node1/etats.json
+ rename node1/{test.js => prov.js} (92%)
+ rename node1/{tab.json => prov.json} (100%)
+
+C:\Users\yugol_000\veille>git commit -m "ex10Dev"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+        modified:   semaine_01/01_exemple (modified content)
+        modified:   semaine_01/ex1 (untracked content)
+
+no changes added to commit
+
+C:\Users\yugol_000\veille>git push
+Counting objects: 744, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (685/685), done.
+Writing objects: 100% (744/744), 1.11 MiB | 1.01 MiB/s, done.
+Total 744 (delta 119), reused 0 (delta 0)
+remote: Resolving deltas: 100% (119/119), completed with 1 local objects.
+To https://github.com/yugo0364/exveille.git
+   3a1fa8b..6550dcc  master -> master
+
+C:\Users\yugol_000\veille> db.collection('adresse').update(
+'db.collection' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>
+C:\Users\yugol_000\veille>    {'_id' : "58bf38ca4735352a64920235 "},
+'{'_id'' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>    {"nom": "gg","prenom": "yo"}
+'{"nom":' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>    ,(err, result) => {
+'err' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>      if (err) return console.log(err);
+return was unexpected at this time.
+
+C:\Users\yugol_000\veille>      console.log('modifier dans la BD');
+'console.log' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>      res.redirect('/'); }
+'res.redirect' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\yugol_000\veille>
+C:\Users\yugol_000\veille>git add .
+warning: LF will be replaced by CRLF in ex_9/ex_10.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in ex_9/views/indexdel.ejs.
+The file will have its original line endings in your working directory.
+
+C:\Users\yugol_000\veille>git commit -m fini10
+[master df2b84e] fini10
+ 3 files changed, 36 insertions(+), 20 deletions(-)
+ create mode 100644 {
+
+C:\Users\yugol_000\veille>git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1010 bytes | 0 bytes/s, done.
+Total 6 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
