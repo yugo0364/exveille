@@ -1,0 +1,93 @@
+.<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+     
+      .red{color:red;}
+     
+      ul {
+  list-style-type: none;
+}
+li{
+  list-style-type: none;
+}
+
+
+textarea, input, input[type], .uneditable-input{
+  border-color: rgba(229, 103, 23, 0.0);
+}
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+.notshow{display: none;}
+
+.Table{
+  display: flex;
+
+}
+.Table-row-item{
+  display: inline-flex;width: 125px;
+}
+ span{
+        width: 250px;
+      }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Mon Application</title>
+</head>
+<body>
+  <h1>Carnet d'adresse 6</h1>
+  <div class="Table">
+  <ul class="adresse">
+    <div class="Table-row"><th class="box tab">Nom    <a href="http://localhost:8081/up/nom"><i id="upp" class="fa fa-angle-double-up" aria-hidden="true"></i></a> 
+    <a href="http://localhost:8081/down/nom"><i id="downn" class="fa fa-angle-double-down" aria-hidden="true"></i></a></div>
+    <div class="Table-row-item">Prenom    </div>
+    <div class="Table-row-item">Telephone    </div>
+    <div class="Table-row-item">Adresse    </div>
+    <div class="Table-row-item">Codepostal    </div>
+    <div class="Table-row-item">Id</div>
+    <div class="Table-row-item">
+    <button id="toggleClass"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
+
+
+         </div></div>
+
+    <div class="Table-row notshow" id="cible"><form action="/adresse" method="POST">
+    <div class="Table-row-item"><input class="box" type="text" placeholder="nom" name="nom"></div>
+    <div class="Table-row-item"><input class="box" type="text" placeholder="prenom" name="prenom"></div>
+    <div class="Table-row-item"><input class="box" type="text" placeholder="Telephone" name="telephone"></div>
+    <div class="Table-row-item"><input class="box" type="text" placeholder="adresse" name="adresse"></div>
+    <div class="Table-row-item"><input class="box" type="text" placeholder="codepostal" name="codepostal"></div>
+    <div class="Table-row-item"><span></span></div>
+    <div class="Table-row-item"><button type="submit">Ajouter</button></div>
+  </form></div>
+  <% for(var i=0; i<adresse.length; i++) {%>
+    <li class="client">
+      <div class="Table-row" id="<%= adresse[i]._id %>"><form action="/mod/<%= adresse[i]._id %>" method="POST">
+        <div class="Table-row-item"><input class="box" type="text" placeholder="nom" name="nom" value="<%= adresse[i].nom %>"></div>
+        <div class="Table-row-item"><input class="box" type="text" placeholder="prenom" name="prenom" value="<%= adresse[i].prenom %>"></div>
+        <div class="Table-row-item"><input class="box" type="text" placeholder="Telephone" name="telephone" value="<%= adresse[i].telephone %>"></div>
+        <div class="Table-row-item"><input class="box" type="text" placeholder="adresse" name="adresse" value="<%= adresse[i].adresse %>"></div>
+        <div class="Table-row-item"><input class="box" type="text" placeholder="codepostal" name="codepostal" value="<%= adresse[i].codepostal %>"></div>
+        <div class="Table-row-item"><span><%= adresse[i]._id %></span></div>
+        <div class="Table-row-item"><button id="mod" type="submit"><i class="fa fa-file green" aria-hidden="true"></i></button>
+        <span><a href="http://localhost:8081/detruire/<%= adresse[i]._id %>"><i class="fa fa-trash-o red" aria-hidden="true"></i></a></span></div>
+      </form>
+      </div>
+
+
+
+    </li>
+  <% } %>
+  </ul>
+  <div class="Table">>
+
+</body>
+<script type="text/javascript">
+document.getElementById("toggleClass").onclick = function(){document.getElementById('cible').classList.toggle("notshow");};
+
+</script>
+</html>
